@@ -15,7 +15,7 @@ fn main() {
                 // cast the String mass to an int and perform the calculation
                 let val: i32 = (mass.parse::<i32>().unwrap() / 3) - 2;
                 total += val; // increment the total value with newly calculated val
-                println!("old value = {} ->  new value = {}", ip, val);
+                println!("old value = {} ->  new value = {}", mass, val);
             }
         }
     }
